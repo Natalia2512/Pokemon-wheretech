@@ -122,7 +122,7 @@ function initBattle() {
   })
 }
 
-let caughtPokemons = [emby]; // Array per salvare i Pokémon catturati
+let caughtPokemons = []; // Array per salvare i Pokémon catturati
 
 function attemptCatch() {
   const catchChance = Math.random(); // Probabilità casuale di cattura
